@@ -17,6 +17,15 @@ public class SQLiteDataDao implements DataDao{
 
     public SQLiteDataDao() throws SQLException {
         this.conn = DriverManager.getConnection("jdbc:sqlite:data/data1.db");
+        //虚拟机结束时关闭连接
+        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
+            try {
+                this.conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+                System.out.println("sqlite连接关闭失败");
+            }
+        }));
     }
 
 
@@ -40,7 +49,8 @@ public class SQLiteDataDao implements DataDao{
             pstate.setString(6, PrintUtils.bytes2Hex(block.getPreHash()));
             pstate.setString(7, PrintUtils.bytes2Hex(block.getRootHash()));
 
-            pstate.execute();
+            pstate.executeUpdate();
+            pstate.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
