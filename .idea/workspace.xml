@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c315b21e-9eed-4583-abde-daf38c2f4d8a" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c315b21e-9eed-4583-abde-daf38c2f4d8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data1.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/data1.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rewritableBlockhain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rewritableBlockhain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/MinerManageThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/MinerManageThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/MinerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/MinerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/UserClientThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/UserClientThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,181 +49,6 @@
     <expanded>
       <node key="75eb39c9-a77b-4916-a424-01ca7669605c" />
     </expanded>
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1768984573">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="10" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="3" />
-          <entry key="project.open.time.26" value="3" />
-          <entry key="project.open.time.27" value="3" />
-          <entry key="project.open.time.28" value="3" />
-          <entry key="project.open.time.29" value="2" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.31" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="block" value="14" />
-          <entry key="class" value="59" />
-          <entry key="data1" value="3" />
-          <entry key="group" value="3" />
-          <entry key="java" value="288" />
-          <entry key="png" value="1" />
-          <entry key="properties" value="2" />
-          <entry key="sql" value="4" />
-          <entry key="sqlite" value="7" />
-          <entry key="sqlite_sequence" value="2" />
-          <entry key="table_name" value="1" />
-          <entry key="test" value="2" />
-          <entry key="tx" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="59" />
-          <entry key="DTD" value="2" />
-          <entry key="Database Element" value="31" />
-          <entry key="Image" value="1" />
-          <entry key="JAVA" value="288" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Properties" value="2" />
-          <entry key="SQL" value="3" />
-          <entry key="Scratch" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cell" value="38" />
-          <entry key="data1" value="60" />
-          <entry key="dummy" value="21" />
-          <entry key="java" value="60419" />
-          <entry key="sql" value="322" />
-          <entry key="sqlite" value="88" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="DTD" value="6" />
-          <entry key="JAVA" value="60417" />
-          <entry key="PLAIN_TEXT" value="81" />
-          <entry key="SQL" value="379" />
-          <entry key="Scratch" value="65" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/CHSHash/CHHashInTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="353" column="34" selection-start-line="353" selection-start-column="34" selection-end-line="353" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/CHSHash/TestAssert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="121" column="36" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="27" column="20" selection-start-line="6" selection-start-column="8" selection-end-line="27" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="69" column="20" selection-start-line="46" selection-start-column="8" selection-end-line="69" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/UserClientThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
-              <folding>
-                <element signature="e#202#203#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/UserClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/CHSHash/KeyGen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/CHSHash/tree/CHHashTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme2/CHSHash/CHHashEngine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1277">
-              <caret line="80" column="28" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -259,6 +93,9 @@
     <replaceStrings>
       <replace>getTime</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -335,6 +172,7 @@
     <option name="width" value="1616" />
     <option name="height" value="916" />
   </component>
+  <component name="ProjectId" id="210TUZU1vOi7pdmaXWhi7az3YnZ" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -360,22 +198,33 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1577349382628" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../xushengmin/spcdc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Installation Packages/sqlitejdbc-v033-nested.jar" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveInnerDialog.RECENTS_KEY">
-      <recent name="smu.smc.jiaming.scheme2" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="smu.smc.jiaming.scheme1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\programData\IntelliJ workspace\yangguang\project2\params" />
+      <recent name="E:\programData\IntelliJ workspace\yangguang\project2\src\smu\smc\jiaming" />
+      <recent name="E:\programData\IntelliJ workspace\yangguang\project2\src" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="smu.smc.jiaming.scheme2.HashUtils" />
@@ -384,31 +233,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\programData\IntelliJ workspace\yangguang\project2" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\programData\IntelliJ workspace\yangguang\project2\params" />
-      <recent name="E:\programData\IntelliJ workspace\yangguang\project2\src\smu\smc\jiaming" />
-      <recent name="E:\programData\IntelliJ workspace\yangguang\project2\src" />
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="smu.smc.jiaming.scheme2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="smu.smc.jiaming.scheme2" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="smu.smc.jiaming.scheme1" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Benchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="smu.smc.jiaming.benchmark.Benchmark" />
       <module name="rewritableBlockhain" />
@@ -428,6 +260,18 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="smu.smc.jiaming.scheme2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="smu.smc.jiaming.scheme1.Test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="smu.smc.jiaming.scheme1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,77 +299,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCurve" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCurve" />
-      <module name="rewritableBlockhain" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="rewritableBlockhain" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="rewritableBlockhain" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Benchmark" />
-      <item itemvalue="Application.TestCurve" />
       <item itemvalue="Application.TestCCM" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.TestCCM" />
         <item itemvalue="Application.Benchmark" />
-        <item itemvalue="Application.TestCurve" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -603,8 +394,49 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/MinerThread.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/MinerManageThread.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/SQLiteDataDao.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/smu/smc/jiaming/scheme1/DataDao.java">
@@ -615,28 +447,28 @@
       </provider>
     </entry>
     <entry file="das://75eb39c9-a77b-4916-a424-01ca7669605c/schema/main/table/block" />
-    <entry file="jar://D:/work application/java/jdk8/src.zip!/java/util/List.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../work application/java/jdk8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3740">
           <caret line="210" column="12" selection-start-line="210" selection-start-column="12" selection-end-line="210" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/work application/java/jdk8/src.zip!/java/util/ArrayList.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../work application/java/jdk8/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7480">
           <caret line="410" column="36" selection-start-line="410" selection-start-column="36" selection-end-line="410" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/work application/java/jdk8/src.zip!/java/util/Arrays.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../work application/java/jdk8/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="62720">
           <caret line="3207" column="47" selection-start-line="3207" selection-start-column="39" selection-end-line="3207" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/work application/java/jdk8/src.zip!/java/util/Collection.java">
+    <entry file="jar://$PROJECT_DIR$/../../../../work application/java/jdk8/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4520">
           <caret line="251" column="12" selection-start-line="251" selection-start-column="12" selection-end-line="251" selection-end-column="12" />

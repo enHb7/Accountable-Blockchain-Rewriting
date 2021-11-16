@@ -6,15 +6,15 @@ import java.util.List;
 
 public class MinerManageThread extends Thread{
     private List<MinerThread> miners;
-    private Transactions tx;
+    private Transactions transactions;
 
-    public MinerManageThread(Transactions tx, List<MinerThread> miners){
-        this.tx = tx;
+    public MinerManageThread(Transactions transactions, List<MinerThread> miners){
+        this.transactions = transactions;
         this.miners = miners;
     }
 
-    public MinerManageThread(Transactions tx){
-        this.tx = tx;
+    public MinerManageThread(Transactions transactions){
+        this.transactions = transactions;
         this.miners = new ArrayList<>();
     }
 
@@ -69,38 +69,38 @@ public class MinerManageThread extends Thread{
     public void run(){
         while(true && !isInterrupted()){
             try {
-                synchronized (this.tx) {
-                    this.tx.wait();
+                synchronized (this.transactions) {
+                    this.transactions.wait();
                 }
             } catch (InterruptedException e) {
                 e.printStackTrace();
                 break;
             }
-            if(tx.flag) {
+            if(transactions.flag) {
                 stops();
                 return;
             }
-            if(tx.tx.size() == 1) {
-                this.broadcast(tx.tx.get(0));
+            if(transactions.txes.size() == 1) {
+                this.broadcast(transactions.txes.get(0));
             }
             else {
-                TX[] tx = new TX[this.tx.tx.size()];
-                this.broadcast((TX[]) this.tx.tx.toArray(tx));
-                this.tx.tx.clear();
+                TX[] tx = new TX[this.transactions.txes.size()];
+                this.broadcast((TX[]) this.transactions.txes.toArray(tx));
+                this.transactions.txes.clear();
             }
         }
     }
 
     public static class Transactions {
-        private List<TX> tx = new ArrayList<>();
+        private List<TX> txes = new ArrayList<>();
         private boolean flag = false;
 
-        public synchronized void add(TX tx){
-            this.tx.add(tx);
+        public synchronized void add(TX txes){
+            this.txes.add(txes);
             this.notifyAll();
         }
-        public synchronized void add(TX[] tx){
-            this.tx.addAll(Arrays.asList(tx));
+        public synchronized void add(TX[] txes){
+            this.txes.addAll(Arrays.asList(txes));
             this.notifyAll();
         }
 

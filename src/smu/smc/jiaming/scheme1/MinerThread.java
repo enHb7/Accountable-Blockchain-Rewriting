@@ -12,7 +12,7 @@ public class MinerThread extends Thread {
     private DataDao dataDao;
     private ProofOfWork pow;
     private ProofOfWork.Sig powSig = new ProofOfWork.Sig();
-    private MinerManageThread miners;
+    private MinerManageThread minerManage;
 
     private long t1, t2, t3;
 
@@ -20,16 +20,16 @@ public class MinerThread extends Thread {
 
     }
 
-    private MinerThread(int difficulty, byte challenge, MinerManageThread miners){
+    private MinerThread(int difficulty, byte challenge, MinerManageThread minerManage){
         pow = new ProofOfWork(difficulty, challenge);
-        this.miners = miners;
+        this.minerManage = minerManage;
     }
 
-    private MinerThread(String name, ProofOfWork pow, MinerManageThread miners){
+    private MinerThread(String name, ProofOfWork pow, MinerManageThread minerManage){
         super(name);
         this.pow = pow;
-        this.miners = miners;
-        this.miners.addMiner(this, false);
+        this.minerManage = minerManage;
+        this.minerManage.addMiner(this, false);
     }
 
     public static MinerThread newInstance(String name, ProofOfWork pow, MinerManageThread miners, DataDao dataDao){
@@ -60,7 +60,7 @@ public class MinerThread extends Thread {
             block = this.blockChain.getnewBlock();
             try {
                 synchronized(block) {
-                    block.wait();
+                    block.wait();//矿工接收到足够多的交易才会进行挖矿
                     //println("\n" + this.getName() + "--------------------- start proofofwork!");
                     this.t1 = System.currentTimeMillis();
                     if(block.getHash() == null) {
@@ -88,7 +88,7 @@ public class MinerThread extends Thread {
     }
 
     public void broadcast(Block block){
-        boolean flag = this.miners.broadcast(block);
+        boolean flag = this.minerManage.broadcast(block);
         if(flag)
             this.blockChain.updateDatabase();
 
